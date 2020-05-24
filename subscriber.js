@@ -5,7 +5,6 @@ let messageCount = 0;
 const messageHandler = message => {
     console.log(`Received message ${message.id}:`);
     console.log(`Data: ${message.data}`);
-    console.log(`tAttributes: ${message.attributes}`);
     messageCount += 1;
 
     // Ack the messae
