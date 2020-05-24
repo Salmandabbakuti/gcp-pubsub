@@ -9,7 +9,7 @@ const pubsub = new PubSub();
         .topic(topicName)
         .publish(dataBuffer)
     
-    console.log(messageId)
+    console.log(`Message Published with and Id of ${messageId}`)
 }
 
 publish()
